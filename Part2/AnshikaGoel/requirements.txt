@@ -1,0 +1,43 @@
+﻿# ============================================================
+# DATA 266 Lab 2 - Part 2
+# Anshika Goel
+# Python 3.11.9
+# ============================================================
+#
+# PyTorch CUDA wheels are obtained from the official
+# PyTorch CUDA 12.6 package index.
+#
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Core numerical / imaging stack
+numpy==2.4.6
+Pillow==13.0.0
+pandas==3.1.1
+
+# PyTorch
+torch==2.10.0+cu126
+torchvision==0.25.0+cu126
+
+# Hugging Face / diffusion training
+diffusers==0.42.1
+transformers==5.17.0
+accelerate==1.15.0
+datasets==5.0.1
+peft==0.21.0
+huggingface-hub==1.33.0
+safetensors==0.8.0
+ftfy==6.3.1
+
+# Evaluation
+torchmetrics==1.9.0
+torch-fidelity==0.4.0
+lpips==0.1.4
+matplotlib==3.11.2
+scipy==1.17.0
+scikit-learn==1.9.1
+ImageHash==4.3.2
+
+# Notebook execution
+jupyterlab==4.5.6
+notebook==7.5.5
+ipykernel==7.2.0
