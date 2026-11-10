@@ -1,0 +1,23 @@
+{
+  "final_condition": "run2_rank16",
+  "hugging_face_repo_id": "99AnshikaGoel/data266-lab2-part2-run2-lora-rank16",
+  "model_card_path": "D:\\DATA 266 Gen AI\\Lab2\\Part2\\AnshikaGoel\\model_cards\\run2_rank16\\README.md",
+  "model_card_bytes": 12908,
+  "model_card_lines": 389,
+  "formal_evaluation_types": [
+    "KID",
+    "CLIP prompt alignment",
+    "LPIPS diversity",
+    "blinded human preference"
+  ],
+  "formal_evaluation_type_count": 4,
+  "includes_training_configuration": true,
+  "includes_efficiency": true,
+  "includes_safety_filtering": true,
+  "includes_memorization_screening": true,
+  "includes_dataset_license_status": true,
+  "includes_dataset_limitations": true,
+  "includes_failure_modes": true,
+  "includes_loading_example": true,
+  "claims_uniform_superiority_over_base": false
+}

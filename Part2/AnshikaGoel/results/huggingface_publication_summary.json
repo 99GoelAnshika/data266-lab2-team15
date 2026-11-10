@@ -1,0 +1,41 @@
+{
+  "publication_status": "complete",
+  "all_repositories_public": true,
+  "run1_rank4": {
+    "repo_id": "99AnshikaGoel/data266-lab2-part2-run1-lora-rank4",
+    "repo_type": "model",
+    "verified_revision": "e9c423c270a3f05edc8ba14af7c2fa231438ae85",
+    "weight_file": "pytorch_lora_weights.safetensors",
+    "weight_bytes": 3226184,
+    "remote_weight_verified": true
+  },
+  "run2_rank16": {
+    "repo_id": "99AnshikaGoel/data266-lab2-part2-run2-lora-rank16",
+    "repo_type": "model",
+    "weight_upload_revision": "ccc0e436ba2ff1f9ea62adea730abbd74be68bc2",
+    "verified_revision_with_model_card": "1251d7830c0e156de65e74de3a0a2c63d4f3dd23",
+    "weight_file": "pytorch_lora_weights.safetensors",
+    "weight_bytes": 12792952,
+    "model_card_file": "README.md",
+    "model_card_bytes": 12908,
+    "model_card_sha256": "c7fa61532ee2229fe5d644bbf8cc1e7fc6f789925ad9b5df76745969fbfc4188",
+    "remote_weight_verified": true,
+    "remote_model_card_verified": true
+  },
+  "official_generated_images": {
+    "repo_id": "99AnshikaGoel/data266-lab2-part2-generated-images",
+    "repo_type": "dataset",
+    "verified_revision": "198dda4f521a265fbfa416e72a0bb7175f93ad91",
+    "base_png_count": 40,
+    "run1_rank4_png_count": 40,
+    "run2_rank16_png_count": 40,
+    "total_png_count": 120,
+    "total_png_bytes": 43387118,
+    "exact_per_condition_check": true,
+    "exact_120_image_check": true,
+    "local_remote_total_bytes_match": true
+  },
+  "selected_final_model": "run2_rank16",
+  "selected_final_model_repo": "99AnshikaGoel/data266-lab2-part2-run2-lora-rank16",
+  "generated_images_repo": "99AnshikaGoel/data266-lab2-part2-generated-images"
+}
