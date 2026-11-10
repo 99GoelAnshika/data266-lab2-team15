@@ -1,0 +1,57 @@
+{
+  "model_condition": "run2_rank16",
+  "method": "LoRA",
+  "base_model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "base_model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "lora_rank": 16,
+  "lora_alpha": 16,
+  "lora_scale": 1.0,
+  "lora_weight_name": "pytorch_lora_weights.safetensors",
+  "image_count": 40,
+  "category_image_counts": {
+    "in_domain": 20,
+    "compositional": 10,
+    "out_of_domain": 10
+  },
+  "scheduler": "PNDMScheduler",
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "seeds": [
+    0,
+    1
+  ],
+  "resolution": [
+    512,
+    512
+  ],
+  "safety_checker_enabled": true,
+  "nsfw_flagged_images": 3,
+  "flagged_outputs": [
+    {
+      "prompt_id": "IN_07",
+      "seed": 0,
+      "category": "in_domain",
+      "image_filename": "IN_07_seed_0.png"
+    },
+    {
+      "prompt_id": "IN_08",
+      "seed": 0,
+      "category": "in_domain",
+      "image_filename": "IN_08_seed_0.png"
+    },
+    {
+      "prompt_id": "IN_10",
+      "seed": 1,
+      "category": "in_domain",
+      "image_filename": "IN_10_seed_1.png"
+    }
+  ],
+  "pipeline_and_lora_load_seconds": 11.7538,
+  "mean_generation_seconds": 8.5597,
+  "median_generation_seconds": 7.7156,
+  "maximum_peak_gpu_allocated_gb": 2.9165,
+  "maximum_peak_gpu_reserved_gb": 3.1523,
+  "new_images_generated_this_execution": 40,
+  "execution_elapsed_seconds": 369.8317,
+  "all_images_exist": true
+}
