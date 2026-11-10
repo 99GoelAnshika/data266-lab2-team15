@@ -1,0 +1,38 @@
+{
+  "comparison_grid_count": 8,
+  "grid_selection_seed": 266,
+  "grid_category_distribution": {
+    "in_domain": 4,
+    "out_of_domain": 2,
+    "compositional": 2
+  },
+  "models_compared": [
+    "base",
+    "run1_rank4",
+    "run2_rank16"
+  ],
+  "seeds_per_prompt": [
+    0,
+    1
+  ],
+  "images_per_grid": 6,
+  "total_images_represented": 48,
+  "selection_depended_on_image_quality": false,
+  "in_domain_observation": "Base SD 1.5 frequently remains photographic or semi-photographic, while both LoRA runs consistently shift the selected in-domain generations toward the Naruto/anime visual domain.",
+  "out_of_domain_observation": "For the selected strawberry and skyscraper prompts, all three models preserve the major requested semantic content, indicating that fine-tuning did not eliminate general text-to-image capability.",
+  "compositional_observation": "The compositional examples reveal failures in object binding and complete multi-element spatial composition.",
+  "failure_mode_count": 2,
+  "failure_modes": [
+    {
+      "id": "FM01",
+      "name": "multi_object_attribute_binding",
+      "prompt_id": "COMP_02"
+    },
+    {
+      "id": "FM02",
+      "name": "multi_element_spatial_composition",
+      "prompt_id": "COMP_04"
+    }
+  ],
+  "interpretation_note": "These grids are qualitative evidence and failure analysis. They are not counted as an additional evaluation type. The four evaluation types remain KID, CLIP prompt alignment, LPIPS diversity, and blinded human preference."
+}

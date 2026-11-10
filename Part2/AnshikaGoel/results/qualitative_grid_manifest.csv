@@ -1,0 +1,9 @@
+grid_number,prompt_id,category,prompt,seed_count,model_count,image_count,safety_filtered_image_count,grid_path
+1,IN_01,in_domain,an older man wearing sunglasses and a hat,2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_01_IN_01.png
+2,IN_02,in_domain,a girl with brown hair and a white shirt,2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_02_IN_02.png
+3,IN_03,in_domain,a girl with glasses and a red shirt,2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_03_IN_03.png
+4,IN_05,in_domain,a woman with a scarf around her neck,2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_04_IN_05.png
+5,OOD_02,out_of_domain,a bowl of fresh strawberries on a wooden table,2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_05_OOD_02.png
+6,OOD_03,out_of_domain,a modern glass skyscraper under a clear blue sky,2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_06_OOD_03.png
+7,COMP_02,compositional,"two anime warriors facing each other, one holding a sword and the other holding a lantern",2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_07_COMP_02.png
+8,COMP_04,compositional,a masked ninja jumping over a river with snow-covered mountains in the background,2,3,6,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\model_comparison_grids\GRID_08_COMP_04.png
