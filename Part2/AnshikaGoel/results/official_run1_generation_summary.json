@@ -1,0 +1,37 @@
+{
+  "model_condition": "run1_rank4",
+  "method": "LoRA",
+  "base_model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "base_model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "lora_rank": 4,
+  "lora_alpha": 4,
+  "lora_scale": 1.0,
+  "lora_weight_name": "pytorch_lora_weights.safetensors",
+  "image_count": 40,
+  "category_image_counts": {
+    "in_domain": 20,
+    "compositional": 10,
+    "out_of_domain": 10
+  },
+  "scheduler": "PNDMScheduler",
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "seeds": [
+    0,
+    1
+  ],
+  "resolution": [
+    512,
+    512
+  ],
+  "safety_checker_enabled": true,
+  "nsfw_flagged_images": 5,
+  "pipeline_and_lora_load_seconds": 11.7396,
+  "mean_generation_seconds": 7.8417,
+  "median_generation_seconds": 7.2622,
+  "maximum_peak_gpu_allocated_gb": 2.9002,
+  "maximum_peak_gpu_reserved_gb": 3.1367,
+  "new_images_generated_this_execution": 40,
+  "execution_elapsed_seconds": 338.7556,
+  "all_images_exist": true
+}
