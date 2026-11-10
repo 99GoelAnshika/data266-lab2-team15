@@ -1,0 +1,24 @@
+{
+  "dataset_id": "lambdalabs/naruto-blip-captions",
+  "dataset_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+  "seed": 266,
+  "total_rows": 1221,
+  "valid_images": 1221,
+  "decode_failures": 0,
+  "valid_captions": 1221,
+  "missing_captions": 0,
+  "blank_captions": 0,
+  "non_string_captions": 0,
+  "exact_duplicate_groups": 0,
+  "rows_in_exact_duplicate_groups": 0,
+  "redundant_exact_rows": 0,
+  "perceptual_distance_threshold": 4,
+  "perceptual_candidate_pairs": 0,
+  "image_formats": {
+    "PNG": 1221
+  },
+  "image_modes": {
+    "RGB": 1221
+  },
+  "unique_image_sizes": 358
+}

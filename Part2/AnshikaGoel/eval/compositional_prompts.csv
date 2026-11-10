@@ -1,0 +1,6 @@
+prompt_id,category,prompt,composition_focus
+COMP_01,compositional,a young ninja with silver hair wearing a blue cloak standing beside a red torii gate at night,character appearance; clothing; object; spatial relation; night scene
+COMP_02,compositional,"two anime warriors facing each other, one holding a sword and the other holding a lantern",two subjects; facing relationship; distinct held objects
+COMP_03,compositional,a girl with green eyes and long black hair sitting under a cherry blossom tree while holding a book,facial attribute; hair attribute; pose; location; held object
+COMP_04,compositional,a masked ninja jumping over a river with snow-covered mountains in the background,character accessory; action; foreground scene; background scene
+COMP_05,compositional,three ninja students in different colored outfits sharing bowls of ramen at an outdoor table,three subjects; clothing variation; food objects; shared action; setting

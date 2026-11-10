@@ -1,0 +1,11 @@
+prompt_id,category,original_index,test_position,prompt
+ID_01,in_domain,111,7,a man with a hoodie and a hoodie
+ID_02,in_domain,118,9,a man with a gun in his hand
+ID_03,in_domain,282,23,a girl with brown hair and a white shirt
+ID_04,in_domain,353,31,a girl with glasses and a red shirt
+ID_05,in_domain,439,41,a cat with bubbles on it's back
+ID_06,in_domain,468,45,a woman with a scarf around her neck
+ID_07,in_domain,612,53,a man with a baseball cap on his head
+ID_08,in_domain,727,68,a man in a green jacket with his eyes closed
+ID_09,in_domain,932,94,a woman with long hair and a man with long hair
+ID_10,in_domain,1070,108,a dog with glasses on it's face

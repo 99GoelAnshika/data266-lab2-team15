@@ -1,0 +1,11 @@
+prompt_id,source_candidate_id,original_index,prompt,selection_source,category
+IN_01,RC_02,19,an older man wearing sunglasses and a hat,replacement_pool,in_domain
+IN_02,ID_03,282,a girl with brown hair and a white shirt,initial_sample,in_domain
+IN_03,ID_04,353,a girl with glasses and a red shirt,initial_sample,in_domain
+IN_04,ID_05,439,a cat with bubbles on it's back,initial_sample,in_domain
+IN_05,ID_06,468,a woman with a scarf around her neck,initial_sample,in_domain
+IN_06,RC_07,708,a girl sitting on the ground with her hands on her knees,replacement_pool,in_domain
+IN_07,ID_08,727,a man in a green jacket with his eyes closed,initial_sample,in_domain
+IN_08,RC_10,942,a man with a bandage on his head,replacement_pool,in_domain
+IN_09,ID_10,1070,a dog with glasses on it's face,initial_sample,in_domain
+IN_10,RC_12,1200,a man with white hair and red eyes,replacement_pool,in_domain

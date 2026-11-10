@@ -1,0 +1,202 @@
+[
+  {
+    "prompt_id": "IN_01",
+    "category": "in_domain",
+    "prompt": "an older man wearing sunglasses and a hat",
+    "original_index": 19,
+    "source_candidate_id": "RC_02",
+    "selection_source": "replacement_pool",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_02",
+    "category": "in_domain",
+    "prompt": "a girl with brown hair and a white shirt",
+    "original_index": 282,
+    "source_candidate_id": "ID_03",
+    "selection_source": "initial_sample",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_03",
+    "category": "in_domain",
+    "prompt": "a girl with glasses and a red shirt",
+    "original_index": 353,
+    "source_candidate_id": "ID_04",
+    "selection_source": "initial_sample",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_04",
+    "category": "in_domain",
+    "prompt": "a cat with bubbles on it's back",
+    "original_index": 439,
+    "source_candidate_id": "ID_05",
+    "selection_source": "initial_sample",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_05",
+    "category": "in_domain",
+    "prompt": "a woman with a scarf around her neck",
+    "original_index": 468,
+    "source_candidate_id": "ID_06",
+    "selection_source": "initial_sample",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_06",
+    "category": "in_domain",
+    "prompt": "a girl sitting on the ground with her hands on her knees",
+    "original_index": 708,
+    "source_candidate_id": "RC_07",
+    "selection_source": "replacement_pool",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_07",
+    "category": "in_domain",
+    "prompt": "a man in a green jacket with his eyes closed",
+    "original_index": 727,
+    "source_candidate_id": "ID_08",
+    "selection_source": "initial_sample",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_08",
+    "category": "in_domain",
+    "prompt": "a man with a bandage on his head",
+    "original_index": 942,
+    "source_candidate_id": "RC_10",
+    "selection_source": "replacement_pool",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_09",
+    "category": "in_domain",
+    "prompt": "a dog with glasses on it's face",
+    "original_index": 1070,
+    "source_candidate_id": "ID_10",
+    "selection_source": "initial_sample",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "IN_10",
+    "category": "in_domain",
+    "prompt": "a man with white hair and red eyes",
+    "original_index": 1200,
+    "source_candidate_id": "RC_12",
+    "selection_source": "replacement_pool",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "OOD_01",
+    "category": "out_of_domain",
+    "prompt": "a red vintage car parked on a quiet city street",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "OOD_02",
+    "category": "out_of_domain",
+    "prompt": "a bowl of fresh strawberries on a wooden table",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "OOD_03",
+    "category": "out_of_domain",
+    "prompt": "a modern glass skyscraper under a clear blue sky",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "OOD_04",
+    "category": "out_of_domain",
+    "prompt": "a lighthouse on a rocky coast at sunset",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "OOD_05",
+    "category": "out_of_domain",
+    "prompt": "a ceramic coffee mug beside an open book",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": null,
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "COMP_01",
+    "category": "compositional",
+    "prompt": "a young ninja with silver hair wearing a blue cloak standing beside a red torii gate at night",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": "character appearance; clothing; object; spatial relation; night scene",
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "COMP_02",
+    "category": "compositional",
+    "prompt": "two anime warriors facing each other, one holding a sword and the other holding a lantern",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": "two subjects; facing relationship; distinct held objects",
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "COMP_03",
+    "category": "compositional",
+    "prompt": "a girl with green eyes and long black hair sitting under a cherry blossom tree while holding a book",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": "facial attribute; hair attribute; pose; location; held object",
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "COMP_04",
+    "category": "compositional",
+    "prompt": "a masked ninja jumping over a river with snow-covered mountains in the background",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": "character accessory; action; foreground scene; background scene",
+    "generation_seeds": "0,1"
+  },
+  {
+    "prompt_id": "COMP_05",
+    "category": "compositional",
+    "prompt": "three ninja students in different colored outfits sharing bowls of ramen at an outdoor table",
+    "original_index": null,
+    "source_candidate_id": null,
+    "selection_source": "manual_pretraining_definition",
+    "composition_focus": "three subjects; clothing variation; food objects; shared action; setting",
+    "generation_seeds": "0,1"
+  }
+]
