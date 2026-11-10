@@ -1,0 +1,37 @@
+{
+  "cache_status": "verified",
+  "cache_location": "D:\\DATA 266 Gen AI\\Lab2\\Part2\\AnshikaGoel\\data\\cache\\training_features\\sd15_naruto_train_features_fp16.pt",
+  "cache_is_git_ignored_local_data": true,
+  "cache_size_mb": 192.4832,
+  "training_examples": 1098,
+  "test_examples_used": 0,
+  "training_index_sha256": "6f5f448ccb75aad08fb6535732afe0657dea0c6c31825c9781ef6a43f6d4574b",
+  "caption_sha256": "94a43204bd76f58dc7ccf24b5eebd6e2f0dc8e3eb2fc3e8e0d319c7c49bbfb72",
+  "cache_dtype": "torch.float16",
+  "vae_mean_shape": [
+    1098,
+    4,
+    64,
+    64
+  ],
+  "vae_std_shape": [
+    1098,
+    4,
+    64,
+    64
+  ],
+  "text_embedding_shape": [
+    1098,
+    77,
+    768
+  ],
+  "vae_scaling_factor": 0.18215,
+  "vae_latent_sampling_preserved": true,
+  "vae_load_seconds": 2.5552,
+  "vae_cache_seconds": 138.3874,
+  "vae_peak_allocated_gb": 2.252,
+  "text_encoder_load_seconds": 4.7757,
+  "text_cache_seconds": 65.588,
+  "text_peak_allocated_gb": 0.8283,
+  "cache_save_seconds": 2.4453
+}

@@ -1,0 +1,119 @@
+{
+  "purpose": "cached_feature_training_benchmark",
+  "adapter_update_retained": false,
+  "optimizer_steps": 10,
+  "warmup_steps_excluded_for_steady_state": 2,
+  "training_examples_seen": 40,
+  "test_examples_seen": 0,
+  "lora_rank": 4,
+  "lora_alpha": 4,
+  "trainable_lora_parameters": 797184,
+  "optimizer_step_times_seconds": [
+    2.6556532999966294,
+    2.6844644998200238,
+    2.5743518001399934,
+    2.638945500133559,
+    2.6350457000080496,
+    2.879543799906969,
+    2.5772418999113142,
+    2.6663490999490023,
+    2.702050599968061,
+    2.9900750999804586
+  ],
+  "optimizer_step_mean_losses": [
+    0.10652542323805392,
+    0.09819085383787751,
+    0.10570678068324924,
+    0.045948856975883245,
+    0.164707588206511,
+    0.08161506289616227,
+    0.059820232912898064,
+    0.05353454721625894,
+    0.18973131151869893,
+    0.18991992063820362
+  ],
+  "optimizer_step_gradient_norms": [
+    0.03115265816450119,
+    0.027638936415314674,
+    0.030883420258760452,
+    0.029552195221185684,
+    0.03766850009560585,
+    0.030053384602069855,
+    0.02624560333788395,
+    0.022063471376895905,
+    0.04809200391173363,
+    0.062367361038923264
+  ],
+  "source_rows_by_optimizer_step": [
+    [
+      613,
+      1166,
+      458,
+      264
+    ],
+    [
+      377,
+      23,
+      219,
+      828
+    ],
+    [
+      601,
+      82,
+      1004,
+      200
+    ],
+    [
+      927,
+      593,
+      1211,
+      972
+    ],
+    [
+      1047,
+      392,
+      301,
+      223
+    ],
+    [
+      796,
+      1048,
+      122,
+      1098
+    ],
+    [
+      712,
+      951,
+      370,
+      539
+    ],
+    [
+      276,
+      673,
+      949,
+      1191
+    ],
+    [
+      275,
+      903,
+      584,
+      1016
+    ],
+    [
+      209,
+      750,
+      743,
+      1037
+    ]
+  ],
+  "mean_all_step_seconds": 2.700372129981406,
+  "median_all_step_seconds": 2.661001199972816,
+  "mean_steady_state_step_seconds": 2.707950437499676,
+  "median_steady_state_step_seconds": 2.6526473000412807,
+  "projected_1000_step_hours": 0.7522084548610211,
+  "peak_gpu_allocated_gb": 2.47230863571167,
+  "peak_gpu_reserved_gb": 2.52734375,
+  "feature_cache_path": "D:\\DATA 266 Gen AI\\Lab2\\Part2\\AnshikaGoel\\data\\cache\\training_features\\sd15_naruto_train_features_fp16.pt",
+  "training_index_sha256": "6f5f448ccb75aad08fb6535732afe0657dea0c6c31825c9781ef6a43f6d4574b",
+  "caption_sha256": "94a43204bd76f58dc7ccf24b5eebd6e2f0dc8e3eb2fc3e8e0d319c7c49bbfb72"
+}

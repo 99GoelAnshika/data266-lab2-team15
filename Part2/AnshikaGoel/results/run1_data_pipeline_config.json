@@ -1,0 +1,35 @@
+{
+  "base_model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "base_model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "training_rows": 1098,
+  "test_rows_excluded": 123,
+  "train_test_overlap": 0,
+  "seed": 266,
+  "dataloader_seed": 266,
+  "resolution": 512,
+  "image_preprocessing": [
+    "RGB conversion",
+    "aspect-ratio-preserving resize shortest edge to 512",
+    "center crop 512x512",
+    "ToTensor",
+    "Normalize(mean=0.5,std=0.5)"
+  ],
+  "tokenizer": "CLIPTokenizer",
+  "tokenizer_max_length": 77,
+  "physical_batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 4,
+  "lora_rank": 4,
+  "lora_alpha": 4,
+  "learning_rate": 0.0001,
+  "mixed_precision": "fp16",
+  "gradient_checkpointing": true,
+  "target_modules": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ],
+  "max_train_steps": null,
+  "max_train_steps_status": "pending_gpu_training_smoke_test"
+}

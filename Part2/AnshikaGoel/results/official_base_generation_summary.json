@@ -1,0 +1,32 @@
+{
+  "model_condition": "base",
+  "base_model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "base_model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "image_count": 40,
+  "category_image_counts": {
+    "in_domain": 20,
+    "compositional": 10,
+    "out_of_domain": 10
+  },
+  "scheduler": "PNDMScheduler",
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "seeds": [
+    0,
+    1
+  ],
+  "resolution": [
+    512,
+    512
+  ],
+  "safety_checker_enabled": true,
+  "nsfw_flagged_images": 0,
+  "pipeline_load_seconds": 8.5967,
+  "mean_generation_seconds": 6.7257,
+  "median_generation_seconds": 6.2395,
+  "maximum_peak_gpu_allocated_gb": 2.886,
+  "maximum_peak_gpu_reserved_gb": 3.123,
+  "new_images_generated_this_execution": 40,
+  "execution_elapsed_seconds": 294.7267,
+  "all_images_exist": true
+}

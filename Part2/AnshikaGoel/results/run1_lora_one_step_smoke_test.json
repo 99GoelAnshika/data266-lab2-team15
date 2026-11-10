@@ -1,0 +1,52 @@
+{
+  "purpose": "hardware_compatibility_only",
+  "adapter_update_retained": false,
+  "base_model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "base_model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "gpu_total_vram_gb": 5.9995,
+  "training_rows": 1098,
+  "test_rows_used": 0,
+  "diagnostic_source_indices": [
+    613,
+    1166,
+    458,
+    264
+  ],
+  "lora_rank": 4,
+  "lora_alpha": 4,
+  "target_modules": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ],
+  "total_unet_parameters": 860318148,
+  "trainable_lora_parameters": 797184,
+  "trainable_percentage": 0.09266153,
+  "learning_rate": 0.0001,
+  "physical_batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 4,
+  "mixed_precision": "fp16",
+  "gradient_checkpointing": true,
+  "training_scheduler": "DDPMScheduler",
+  "prediction_type": "epsilon",
+  "microbatch_losses": [
+    0.11818405985832214,
+    0.04253336787223816,
+    0.12372401356697083,
+    0.016121037304401398
+  ],
+  "mean_raw_loss": 0.07514061965048313,
+  "gradient_norm": 0.03935074433684349,
+  "optimizer_step_applied": true,
+  "changed_lora_parameter_tensors": 256,
+  "max_absolute_parameter_update": 9.999980829888955e-05,
+  "optimizer_step_seconds": 7.821,
+  "vae_peak_allocated_gb": 1.1148,
+  "text_encoder_peak_allocated_gb": 0.8145,
+  "training_peak_allocated_gb": 2.4677,
+  "overall_peak_allocated_gb": 2.4677,
+  "overall_peak_reserved_gb": 2.5137
+}

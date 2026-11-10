@@ -1,0 +1,40 @@
+{
+  "protocol_status": "frozen_before_official_generation",
+  "base_model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "base_model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "resolution": {
+    "height": 512,
+    "width": 512
+  },
+  "scheduler": "PNDMScheduler",
+  "scheduler_config": {
+    "class_name": "PNDMScheduler",
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "skip_prk_steps": true,
+    "steps_offset": 1,
+    "set_alpha_to_one": false,
+    "prediction_type": null
+  },
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "generation_seeds": [
+    0,
+    1
+  ],
+  "negative_prompt": null,
+  "images_per_seed": 1,
+  "dtype": "float16",
+  "safety_checker_enabled": true,
+  "memory_strategy": "model_cpu_offload",
+  "prompt_count": 20,
+  "images_per_model": 40,
+  "model_conditions": [
+    "base",
+    "run1",
+    "run2"
+  ],
+  "total_planned_images": 120
+}

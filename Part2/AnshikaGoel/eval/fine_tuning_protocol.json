@@ -1,0 +1,62 @@
+{
+  "protocol_status": "frozen_before_full_training",
+  "base_model": {
+    "repo_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14"
+  },
+  "dataset": {
+    "dataset_id": "lambdalabs/naruto-blip-captions",
+    "dataset_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+    "training_rows": 1098,
+    "test_rows_excluded": 123,
+    "train_test_overlap": 0,
+    "split_seed": 266
+  },
+  "common_training_configuration": {
+    "max_optimizer_steps": 1000,
+    "physical_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 4,
+    "sample_exposures": 4000,
+    "equivalent_epochs": 3.6429872495446265,
+    "resolution": 512,
+    "learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_weight_decay": 0.01,
+    "adam_epsilon": 1e-08,
+    "lr_scheduler": "constant",
+    "lr_warmup_steps": 0,
+    "max_grad_norm": 1.0,
+    "mixed_precision": "fp16",
+    "gradient_checkpointing": true,
+    "target_modules": [
+      "to_q",
+      "to_k",
+      "to_v",
+      "to_out.0"
+    ],
+    "text_encoder_trainable": false,
+    "vae_trainable": false,
+    "base_unet_trainable": false
+  },
+  "run1": {
+    "run_id": "run1",
+    "method": "LoRA",
+    "lora_rank": 4,
+    "lora_alpha": 4
+  },
+  "run2": {
+    "run_id": "run2",
+    "method": "LoRA",
+    "lora_rank": 16,
+    "lora_alpha": 16
+  },
+  "planning_estimate": {
+    "measured_smoke_optimizer_step_seconds": 7.821,
+    "estimated_hours_per_run": 2.1725,
+    "estimated_hours_for_two_runs": 4.345,
+    "note": "Planning estimate only; actual wall-clock times will be measured programmatically."
+  }
+}
