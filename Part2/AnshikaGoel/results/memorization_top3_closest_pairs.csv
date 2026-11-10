@@ -1,0 +1,4 @@
+similarity_rank,generated_rank_input,prompt_id,prompt,generated_seed,generated_image_path,generated_safety_flagged,selection_reason,nearest_train_source_index,nearest_train_caption,clip_cosine_similarity
+1,10,IN_10,a man with white hair and red eyes,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\generated_images\official_run2_rank16\IN_10_seed_0.png,False,seed0_unfiltered,181,an anime character with long black hair and yellow eyes,0.9092205762863159
+2,2,IN_02,a girl with brown hair and a white shirt,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\generated_images\official_run2_rank16\IN_02_seed_0.png,False,seed0_unfiltered,175,a woman in a pink dress and a man in a suit,0.888714075088501
+3,1,IN_01,an older man wearing sunglasses and a hat,0,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\generated_images\official_run2_rank16\IN_01_seed_0.png,False,seed0_unfiltered,206,a man with a mustache and a hat,0.8841197490692139

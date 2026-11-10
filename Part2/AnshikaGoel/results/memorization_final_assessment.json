@@ -1,0 +1,11 @@
+{
+  "final_model": "run2_rank16",
+  "generated_images_screened": 10,
+  "training_images_searched": 1098,
+  "closest_pairs_visually_inspected": 3,
+  "highest_clip_similarity": 0.909221,
+  "visual_near_duplicate_count": 0,
+  "assessment": "No clear visual evidence of direct training-image copying was observed among the three highest-CLIP nearest neighbors.",
+  "important_limitation": "This is a screening analysis, not proof that memorization is absent. CLIP similarity captures semantic and stylistic resemblance as well as visual similarity, and only ten generated images were screened.",
+  "evaluation_type_note": "The memorization check is a required safety diagnostic and is not counted as an additional evaluation type. The four evaluation types remain KID, CLIP prompt alignment, LPIPS diversity, and blinded human preference."
+}

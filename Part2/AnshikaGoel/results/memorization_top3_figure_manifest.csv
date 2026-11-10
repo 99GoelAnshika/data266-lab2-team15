@@ -1,0 +1,4 @@
+similarity_rank,prompt_id,generated_seed,nearest_train_source_index,clip_cosine_similarity,figure_path
+1,IN_10,0,181,0.9092205762863159,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\memorization_top3_pairs\MEM_PAIR_01.png
+2,IN_02,0,175,0.888714075088501,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\memorization_top3_pairs\MEM_PAIR_02.png
+3,IN_01,0,206,0.8841197490692139,D:\DATA 266 Gen AI\Lab2\Part2\AnshikaGoel\figures\memorization_top3_pairs\MEM_PAIR_03.png

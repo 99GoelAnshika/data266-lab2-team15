@@ -1,0 +1,19 @@
+{
+  "final_condition": "run2_rank16",
+  "generated_image_count": 10,
+  "training_image_count": 1098,
+  "clip_model_id": "openai/clip-vit-base-patch32",
+  "clip_model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "embedding_normalization": "L2",
+  "similarity_metric": "cosine_similarity",
+  "generated_image_selection_rule": "For each in-domain prompt, use seed 0 if unfiltered; otherwise use seed 1; if both are filtered, use seed 0.",
+  "selected_generated_safety_flagged_count": 0,
+  "nearest_similarity_mean": 0.8100986063480378,
+  "nearest_similarity_median": 0.8473075926303864,
+  "nearest_similarity_max": 0.9092205762863159,
+  "nearest_similarity_min": 0.617344319820404,
+  "elapsed_seconds": 95.82858740002848,
+  "device": "cuda",
+  "peak_allocated_gb": 1.1989798545837402,
+  "interpretation": "CLIP nearest-neighbor similarity is a screening measure for potential memorization, not proof of training-image copying. The three highest-similarity pairs require visual inspection."
+}
