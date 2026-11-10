@@ -1,0 +1,28 @@
+{
+  "evaluation": "blinded_human_preference",
+  "baseline_condition": "base",
+  "final_condition": "run2_rank16",
+  "private_key_sha256": "6c67939eef870712712b0f6d49067ec64fe760217e243aad02267f2138b4115a",
+  "private_key_hash_matches_pre_human_freeze": true,
+  "rater_count": 3,
+  "pair_count": 25,
+  "total_judgments": 75,
+  "overall": {
+    "final_preferred_count": 15,
+    "base_preferred_count": 31,
+    "tie_count": 29,
+    "decisive_judgments": 46,
+    "final_share_all": 0.2,
+    "base_share_all": 0.41333333333333333,
+    "tie_share_all": 0.38666666666666666,
+    "final_win_rate_decisive": 0.32608695652173914,
+    "base_win_rate_decisive": 0.6739130434782609
+  },
+  "pair_majority": {
+    "final": 4,
+    "base": 9,
+    "tie": 9,
+    "no_majority": 3
+  },
+  "interpretation_note": "Human preference is reported as the fourth evaluation type. Per-rater, per-category, and pair-majority tables are descriptive breakdowns of the same blinded human evaluation, not additional evaluation types."
+}

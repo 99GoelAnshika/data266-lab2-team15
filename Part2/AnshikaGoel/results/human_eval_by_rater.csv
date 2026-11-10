@@ -1,0 +1,4 @@
+rater_id,judgment_count,final_preferred_count,base_preferred_count,tie_count,decisive_count,final_share_all,base_share_all,tie_share_all,final_win_rate_decisive
+R01,25,5,11,9,16,0.2,0.44,0.36,0.3125
+R02,25,3,12,10,15,0.12,0.48,0.4,0.2
+R03,25,7,8,10,15,0.28,0.32,0.4,0.4666666666666667

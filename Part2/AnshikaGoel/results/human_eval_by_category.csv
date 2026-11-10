@@ -1,0 +1,4 @@
+category,pair_count,judgment_count,final_preferred_count,base_preferred_count,tie_count,decisive_count,final_share_all,base_share_all,tie_share_all,final_win_rate_decisive
+compositional,6,18,2,5,11,7,0.1111111111111111,0.2777777777777778,0.6111111111111112,0.2857142857142857
+in_domain,11,33,4,21,8,25,0.12121212121212122,0.6363636363636364,0.24242424242424243,0.16
+out_of_domain,8,24,9,5,10,14,0.375,0.20833333333333334,0.4166666666666667,0.6428571428571429

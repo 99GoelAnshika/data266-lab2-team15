@@ -1,0 +1,2 @@
+evaluation,baseline_condition,final_condition,rater_count,pair_count,total_judgments,final_preferred_count,base_preferred_count,tie_count,decisive_judgments,final_share_all,base_share_all,tie_share_all,final_win_rate_decisive,base_win_rate_decisive,pair_majority_final,pair_majority_base,pair_majority_tie,pair_no_majority
+blinded_human_preference,base,run2_rank16,3,25,75,15,31,29,46,0.2,0.41333333333333333,0.38666666666666666,0.32608695652173914,0.6739130434782609,4,9,9,3
