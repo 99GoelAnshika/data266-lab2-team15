@@ -1,0 +1,26 @@
+pair_id,prompt_id,category,seed,prompt,stimulus_filename
+PAIR_01,COMP_01,compositional,1,a young ninja with silver hair wearing a blue cloak standing beside a red torii gate at night,PAIR_01.png
+PAIR_02,COMP_02,compositional,1,"two anime warriors facing each other, one holding a sword and the other holding a lantern",PAIR_02.png
+PAIR_03,COMP_03,compositional,0,a girl with green eyes and long black hair sitting under a cherry blossom tree while holding a book,PAIR_03.png
+PAIR_04,COMP_04,compositional,0,a masked ninja jumping over a river with snow-covered mountains in the background,PAIR_04.png
+PAIR_05,COMP_05,compositional,0,three ninja students in different colored outfits sharing bowls of ramen at an outdoor table,PAIR_05.png
+PAIR_06,COMP_05,compositional,1,three ninja students in different colored outfits sharing bowls of ramen at an outdoor table,PAIR_06.png
+PAIR_07,IN_01,in_domain,0,an older man wearing sunglasses and a hat,PAIR_07.png
+PAIR_08,IN_02,in_domain,1,a girl with brown hair and a white shirt,PAIR_08.png
+PAIR_09,IN_03,in_domain,0,a girl with glasses and a red shirt,PAIR_09.png
+PAIR_10,IN_03,in_domain,1,a girl with glasses and a red shirt,PAIR_10.png
+PAIR_11,IN_05,in_domain,1,a woman with a scarf around her neck,PAIR_11.png
+PAIR_12,IN_06,in_domain,1,a girl sitting on the ground with her hands on her knees,PAIR_12.png
+PAIR_13,IN_07,in_domain,0,a man in a green jacket with his eyes closed,PAIR_13.png
+PAIR_14,IN_08,in_domain,0,a man with a bandage on his head,PAIR_14.png
+PAIR_15,IN_08,in_domain,1,a man with a bandage on his head,PAIR_15.png
+PAIR_16,IN_10,in_domain,0,a man with white hair and red eyes,PAIR_16.png
+PAIR_17,IN_10,in_domain,1,a man with white hair and red eyes,PAIR_17.png
+PAIR_18,OOD_01,out_of_domain,0,a red vintage car parked on a quiet city street,PAIR_18.png
+PAIR_19,OOD_01,out_of_domain,1,a red vintage car parked on a quiet city street,PAIR_19.png
+PAIR_20,OOD_03,out_of_domain,0,a modern glass skyscraper under a clear blue sky,PAIR_20.png
+PAIR_21,OOD_03,out_of_domain,1,a modern glass skyscraper under a clear blue sky,PAIR_21.png
+PAIR_22,OOD_04,out_of_domain,0,a lighthouse on a rocky coast at sunset,PAIR_22.png
+PAIR_23,OOD_04,out_of_domain,1,a lighthouse on a rocky coast at sunset,PAIR_23.png
+PAIR_24,OOD_05,out_of_domain,0,a ceramic coffee mug beside an open book,PAIR_24.png
+PAIR_25,OOD_05,out_of_domain,1,a ceramic coffee mug beside an open book,PAIR_25.png

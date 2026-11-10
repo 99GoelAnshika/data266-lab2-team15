@@ -1,0 +1,8 @@
+﻿Human-evaluation private answer key freeze record
+Created before human ratings were collected.
+
+File:
+human_eval_25_pairs_private_key.csv
+
+SHA256:
+6c67939eef870712712b0f6d49067ec64fe760217e243aad02267f2138b4115a

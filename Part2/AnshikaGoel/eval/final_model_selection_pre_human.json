@@ -1,0 +1,26 @@
+{
+  "selection_stage": "before_human_evaluation",
+  "selected_final_finetuned_condition": "run2_rank16",
+  "selected_final_finetuned_display_name": "Run 2 — Rank-16 LoRA",
+  "comparison_baseline": "base",
+  "selection_basis": {
+    "run1_rank4": {
+      "kid_mean": 0.08921151608228683,
+      "clip_mean": 0.30944236777722833,
+      "official_lpips_mean": 0.6630340486764907,
+      "clean_lpips_mean": 0.7254347450592938,
+      "safety_flags": 5,
+      "training_gpu_hours": 0.9177117291389085
+    },
+    "run2_rank16": {
+      "kid_mean": 0.03497504070401192,
+      "clip_mean": 0.3126181080937386,
+      "official_lpips_mean": 0.7518373459577561,
+      "clean_lpips_mean": 0.715022886500639,
+      "safety_flags": 3,
+      "training_gpu_hours": 0.933579497694413
+    }
+  },
+  "decision": "Run 2 rank-16 LoRA selected as the final fine-tuned candidate before human evaluation.",
+  "decision_rationale": "Run 2 had substantially better KID than Run 1, slightly better overall CLIP alignment, fewer safety-checker flags, and similar training cost. Run 1 retained a modest clean-LPIPS diversity advantage."
+}

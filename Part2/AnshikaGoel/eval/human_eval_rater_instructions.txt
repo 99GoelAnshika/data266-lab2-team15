@@ -1,0 +1,23 @@
+BLINDED HUMAN EVALUATION
+
+You will evaluate 25 image pairs.
+
+For each pair:
+
+1. Read the prompt shown above the images.
+2. Compare the LEFT and RIGHT images.
+3. Consider BOTH:
+   - how well the image matches the prompt, and
+   - overall visual quality.
+4. Choose exactly one response:
+   - Left
+   - Right
+   - Tie
+
+Use Tie only when neither image is meaningfully preferable overall.
+
+Do not attempt to identify which model generated either image.
+
+Please evaluate every pair independently.
+
+Do not discuss your choices with other raters before submitting your ratings.
