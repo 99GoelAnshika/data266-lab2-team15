@@ -1,0 +1,67 @@
+{
+  "evaluation_stage": "completed_blinded_ratings_before_unblinding",
+  "rater_count": 3,
+  "pairs_per_rater": 25,
+  "total_judgments": 75,
+  "unique_rater_pair_judgments": 75,
+  "ratings_per_pair": 3,
+  "expected_pair_ids": [
+    "PAIR_01",
+    "PAIR_02",
+    "PAIR_03",
+    "PAIR_04",
+    "PAIR_05",
+    "PAIR_06",
+    "PAIR_07",
+    "PAIR_08",
+    "PAIR_09",
+    "PAIR_10",
+    "PAIR_11",
+    "PAIR_12",
+    "PAIR_13",
+    "PAIR_14",
+    "PAIR_15",
+    "PAIR_16",
+    "PAIR_17",
+    "PAIR_18",
+    "PAIR_19",
+    "PAIR_20",
+    "PAIR_21",
+    "PAIR_22",
+    "PAIR_23",
+    "PAIR_24",
+    "PAIR_25"
+  ],
+  "choice_normalization": {
+    "left": "Left",
+    "right": "Right",
+    "tie": "Tie"
+  },
+  "rater_choice_counts_blinded": {
+    "R01": {
+      "Left": 10,
+      "Right": 6,
+      "Tie": 9
+    },
+    "R02": {
+      "Left": 7,
+      "Right": 8,
+      "Tie": 10
+    },
+    "R03": {
+      "Left": 9,
+      "Right": 6,
+      "Tie": 10
+    }
+  },
+  "rater_file_sha256": {
+    "R01": "811fc864e79aad0bc5943e3e37c20a92c2194bd0a5f7a0010059154425178df2",
+    "R02": "088d7b34b25057994b7f91bf284ff0b65183f2c0be60e6acb0b9905f6406ae8b",
+    "R03": "7e8031287c732d587b6ace7109cfa3e6e38f28adced8fc8544c8423bb572221f"
+  },
+  "private_key_frozen_sha256": "6c67939eef870712712b0f6d49067ec64fe760217e243aad02267f2138b4115a",
+  "private_key_current_sha256": "6c67939eef870712712b0f6d49067ec64fe760217e243aad02267f2138b4115a",
+  "private_key_hash_matches": true,
+  "model_mapping_used": false,
+  "human_result_calculated": false
+}
