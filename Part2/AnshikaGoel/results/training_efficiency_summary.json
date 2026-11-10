@@ -1,0 +1,38 @@
+{
+  "comparison": "run2_rank16_vs_run1_rank4",
+  "same_training_schedule": true,
+  "same_training_data": true,
+  "same_optimizer_steps": true,
+  "same_effective_batch_size": true,
+  "same_learning_rate": true,
+  "run1": {
+    "lora_rank": 4,
+    "trainable_parameters": 797184,
+    "training_minutes": 55.062703748334506,
+    "gpu_hours": 0.9177117291389085,
+    "peak_gpu_allocated_gb": 2.47230863571167,
+    "peak_gpu_reserved_gb": 2.52734375,
+    "final_lora_size_mb": 3.0767288208007812
+  },
+  "run2": {
+    "lora_rank": 16,
+    "trainable_parameters": 3188736,
+    "training_minutes": 56.01476986166478,
+    "gpu_hours": 0.933579497694413,
+    "peak_gpu_allocated_gb": 2.5115675926208496,
+    "peak_gpu_reserved_gb": 2.5703125,
+    "final_lora_size_mb": 12.200309753417969
+  },
+  "run2_vs_run1": {
+    "trainable_parameter_ratio": 4.0,
+    "training_time_increase_minutes": 0.9520661133302752,
+    "training_time_increase_percent": 1.7290580529458157,
+    "gpu_hours_increase": 0.015867768555504425,
+    "gpu_hours_increase_percent": 1.7290580529457977,
+    "peak_allocated_increase_gb": 0.03925895690917969,
+    "peak_allocated_increase_percent": 1.5879472466381102,
+    "adapter_size_ratio": 3.965351015317167
+  },
+  "interpretation": "Increasing LoRA rank from 4 to 16 increased trainable adapter capacity by approximately 4x, while training time, GPU-hours, and peak allocated GPU memory increased only modestly. The final adapter file size increased approximately in proportion to the trainable parameter count.",
+  "evaluation_type_note": "Efficiency is reported as a required resource-use comparison, not as an additional evaluation type. The four evaluation types remain KID, CLIP prompt alignment, LPIPS diversity, and blinded human preference."
+}
