@@ -1,0 +1,30 @@
+{
+  "dataset_id": "lambdalabs/naruto-blip-captions",
+  "dataset_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+  "source_description": "The dataset card states that the original images were obtained from Narutopedia and captioned using a pretrained BLIP image-captioning model.",
+  "repository_license_field": "",
+  "license_status": "No explicit dataset license is declared in the pinned Hugging Face repository metadata.",
+  "license_reporting_policy": "No license is inferred or assigned when the dataset publisher does not declare one.",
+  "original_examples": 1221,
+  "cleaned_examples": 1221,
+  "training_examples": 1098,
+  "held_out_test_examples": 123,
+  "corrupted_images_removed": 0,
+  "invalid_captions_removed": 0,
+  "exact_duplicate_rows_removed": 0,
+  "perceptual_duplicate_candidates": 0,
+  "split_seed": 266,
+  "limitations": [
+    {
+      "id": "DL01",
+      "name": "machine_generated_caption_noise",
+      "description": "Captions were generated with a pretrained BLIP model rather than manually verified, so captions may be generic, incomplete, grammatically imperfect, or visually misaligned."
+    },
+    {
+      "id": "DL02",
+      "name": "narrow_domain_sampling_bias",
+      "description": "The dataset contains Naruto-related anime imagery and is not representative of a broad natural-image or general text-to-image distribution."
+    }
+  ],
+  "provenance_consideration": "The underlying imagery comes from a pre-existing entertainment franchise, while the pinned dataset repository does not declare an explicit license. Downstream-use rights therefore require separate consideration beyond this technical course experiment."
+}
