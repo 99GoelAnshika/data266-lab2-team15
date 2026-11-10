@@ -1,0 +1,134 @@
+{
+  "metric": "CLIP prompt-image cosine similarity",
+  "interpretation": "higher_is_better",
+  "primary_scope": "all_40_official_generated_images_per_condition",
+  "include_safety_filtered_outputs": true,
+  "clip_model_id": "openai/clip-vit-base-patch32",
+  "clip_model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "clip_projection_dimension": 512,
+  "images_per_condition": 40,
+  "total_prompt_image_pairs": 120,
+  "best_condition": "base",
+  "best_mean_clip_similarity": 0.32415914312005045,
+  "evaluation_seconds": 9.080700699938461,
+  "peak_gpu_allocated_gb": 1.191277027130127,
+  "peak_gpu_reserved_gb": 1.259765625,
+  "overall_results": [
+    {
+      "model_condition": "base",
+      "image_count": 40,
+      "mean_clip_similarity": 0.32415914312005045,
+      "median_clip_similarity": 0.3170865774154663,
+      "std_clip_similarity": 0.03754724610804802,
+      "min_clip_similarity": 0.2671719789505005,
+      "max_clip_similarity": 0.426822304725647,
+      "safety_filtered_images": 0,
+      "rank_by_clip": 1
+    },
+    {
+      "model_condition": "run2_rank16",
+      "image_count": 40,
+      "mean_clip_similarity": 0.3126181080937386,
+      "median_clip_similarity": 0.3046373575925827,
+      "std_clip_similarity": 0.04881500697853852,
+      "min_clip_similarity": 0.21481022238731384,
+      "max_clip_similarity": 0.41911089420318604,
+      "safety_filtered_images": 3,
+      "rank_by_clip": 2
+    },
+    {
+      "model_condition": "run1_rank4",
+      "image_count": 40,
+      "mean_clip_similarity": 0.30944236777722833,
+      "median_clip_similarity": 0.3087756782770157,
+      "std_clip_similarity": 0.05133173583041859,
+      "min_clip_similarity": 0.21481022238731384,
+      "max_clip_similarity": 0.4189735949039459,
+      "safety_filtered_images": 5,
+      "rank_by_clip": 3
+    }
+  ],
+  "category_results": [
+    {
+      "model_condition": "base",
+      "category": "in_domain",
+      "image_count": 20,
+      "mean_clip_similarity": 0.3030500426888466,
+      "median_clip_similarity": 0.30439040064811707,
+      "std_clip_similarity": 0.021286395473735373,
+      "safety_filtered_images": 0
+    },
+    {
+      "model_condition": "base",
+      "category": "out_of_domain",
+      "image_count": 10,
+      "mean_clip_similarity": 0.3196892082691193,
+      "median_clip_similarity": 0.31897978484630585,
+      "std_clip_similarity": 0.020106359077522996,
+      "safety_filtered_images": 0
+    },
+    {
+      "model_condition": "base",
+      "category": "compositional",
+      "image_count": 10,
+      "mean_clip_similarity": 0.3708472788333893,
+      "median_clip_similarity": 0.36974285542964935,
+      "std_clip_similarity": 0.0362476559710265,
+      "safety_filtered_images": 0
+    },
+    {
+      "model_condition": "run1_rank4",
+      "category": "in_domain",
+      "image_count": 20,
+      "mean_clip_similarity": 0.27751401290297506,
+      "median_clip_similarity": 0.29552268981933594,
+      "std_clip_similarity": 0.03577610477708126,
+      "safety_filtered_images": 5
+    },
+    {
+      "model_condition": "run1_rank4",
+      "category": "out_of_domain",
+      "image_count": 10,
+      "mean_clip_similarity": 0.306319996714592,
+      "median_clip_similarity": 0.31318192183971405,
+      "std_clip_similarity": 0.022313008572819346,
+      "safety_filtered_images": 0
+    },
+    {
+      "model_condition": "run1_rank4",
+      "category": "compositional",
+      "image_count": 10,
+      "mean_clip_similarity": 0.3764214485883713,
+      "median_clip_similarity": 0.37585650384426117,
+      "std_clip_similarity": 0.030940046876630097,
+      "safety_filtered_images": 0
+    },
+    {
+      "model_condition": "run2_rank16",
+      "category": "in_domain",
+      "image_count": 20,
+      "mean_clip_similarity": 0.2811371758580208,
+      "median_clip_similarity": 0.2896694839000702,
+      "std_clip_similarity": 0.03295497669505626,
+      "safety_filtered_images": 3
+    },
+    {
+      "model_condition": "run2_rank16",
+      "category": "out_of_domain",
+      "image_count": 10,
+      "mean_clip_similarity": 0.3111558645963669,
+      "median_clip_similarity": 0.31100979447364807,
+      "std_clip_similarity": 0.017233222612259354,
+      "safety_filtered_images": 0
+    },
+    {
+      "model_condition": "run2_rank16",
+      "category": "compositional",
+      "image_count": 10,
+      "mean_clip_similarity": 0.3770422160625458,
+      "median_clip_similarity": 0.380168616771698,
+      "std_clip_similarity": 0.030329369844649665,
+      "safety_filtered_images": 0
+    }
+  ]
+}
