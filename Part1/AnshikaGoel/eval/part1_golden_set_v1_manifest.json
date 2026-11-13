@@ -1,4 +1,31 @@
 {
+  "annotation_correction_count": 2,
+  "annotation_corrections": [
+    {
+      "field": "expected_citations",
+      "golden_id": "G005",
+      "new_value": [
+        "DOC1:p11"
+      ],
+      "old_value": [
+        "DOC1:p9"
+      ],
+      "reason": "Source-page verification showed that the actual Table 1-4 containing China's 2009 inflation value is on PDF page 11."
+    },
+    {
+      "field": "expected_citations",
+      "golden_id": "G014",
+      "new_value": [
+        "DOC1:p11",
+        "DOC3:p5"
+      ],
+      "old_value": [
+        "DOC1:p9",
+        "DOC3:p5"
+      ],
+      "reason": "Source-page verification showed that the statement that China's investment rate exceeds 40% of output is on PDF page 11."
+    }
+  ],
   "category_counts": {
     "conflicts_revisions": 3,
     "facts_tables": 5,
@@ -8,17 +35,21 @@
     "two_source": 3
   },
   "conversation_count": 22,
-  "created_before_retrieval_tuning": true,
   "exact_public_question_duplicates": 0,
-  "golden_full_sha256": "675e9b1a5dc34a22cfd5b21d96f93569bc23dfb50e3921987e0c1aec982a2d6f",
+  "golden_full_sha256": "c4007da4b567b1346d8906947e05b77b2af0f1d4659ba1657b601caca2525a11",
   "golden_questions_sha256": "999a9612cdc8a81b13f63f03c16894589b276de9b3dbf90df94f3e754766151b",
   "low_trust_expected_evidence_count": 0,
   "maximum_public_tfidf_similarity": 0.3493592049197636,
   "name": "DATA 266 Lab 2 Part 1 Golden Evaluation Set v1",
+  "pre_tuning_commit": "73a429bec2e89e0a4eac8e48b72b35fa3851baf4",
+  "pre_tuning_full_set_sha256": "675e9b1a5dc34a22cfd5b21d96f93569bc23dfb50e3921987e0c1aec982a2d6f",
+  "pre_tuning_questions_sha256": "999a9612cdc8a81b13f63f03c16894589b276de9b3dbf90df94f3e754766151b",
   "public_question_count": 40,
   "public_questions_sha256": "b88d3c04c6715db04a595eed7731d65ed94b855b3983ad266da052d2a3c592cc",
   "public_questions_used_as_answers": false,
   "question_count": 25,
+  "question_text_changed_after_pre_tuning_freeze": false,
+  "questions_created_before_retrieval_tuning": true,
   "seed": 266,
-  "version": "1.0"
+  "version": "1.0.1"
 }
