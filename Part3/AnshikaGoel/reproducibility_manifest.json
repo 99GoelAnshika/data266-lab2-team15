@@ -92,6 +92,8 @@
   "release": {
     "git_commit": "bcb7e1e96b9cbbc19d670f38516512787204f9e1",
     "git_tag": "p3-v1.0",
+    "hf_dataset_repo": "https://huggingface.co/datasets/99AnshikaGoel/data266-lab2-part3-assets",
+    "hf_dataset_commit": "4767d24fff57fc85e5844dc56a5946f7e373bd83",
     "note": "Verified implementation commit produced after clean Restart Kernel and Run All. The p3-v1.0 tag is applied to the subsequent release-metadata commit."
   }
 }

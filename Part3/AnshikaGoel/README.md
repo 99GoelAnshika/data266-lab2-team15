@@ -271,6 +271,18 @@ Formal traces are stored in:
 
 Development traces are kept separately.
 
+## Hugging Face publication
+
+Final Part 3 evaluation assets are published at:
+
+[https://huggingface.co/datasets/99AnshikaGoel/data266-lab2-part3-assets](https://huggingface.co/datasets/99AnshikaGoel/data266-lab2-part3-assets)
+
+Verified Hugging Face dataset commit:
+
+`4767d24fff57fc85e5844dc56a5946f7e373bd83`
+
+The published dataset contains the 22 supplied frozen evaluation inputs and 10 definitive generated outputs. Development/smoke outputs and unused COCO candidates are excluded.
+
 ## Reproducibility
 
 The implementation uses:
