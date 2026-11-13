@@ -1,0 +1,24 @@
+{
+  "category_counts": {
+    "conflicts_revisions": 3,
+    "facts_tables": 5,
+    "figures": 6,
+    "multi_turn_user_value": 5,
+    "safety": 3,
+    "two_source": 3
+  },
+  "conversation_count": 22,
+  "created_before_retrieval_tuning": true,
+  "exact_public_question_duplicates": 0,
+  "golden_full_sha256": "675e9b1a5dc34a22cfd5b21d96f93569bc23dfb50e3921987e0c1aec982a2d6f",
+  "golden_questions_sha256": "999a9612cdc8a81b13f63f03c16894589b276de9b3dbf90df94f3e754766151b",
+  "low_trust_expected_evidence_count": 0,
+  "maximum_public_tfidf_similarity": 0.3493592049197636,
+  "name": "DATA 266 Lab 2 Part 1 Golden Evaluation Set v1",
+  "public_question_count": 40,
+  "public_questions_sha256": "b88d3c04c6715db04a595eed7731d65ed94b855b3983ad266da052d2a3c592cc",
+  "public_questions_used_as_answers": false,
+  "question_count": 25,
+  "seed": 266,
+  "version": "1.0"
+}
