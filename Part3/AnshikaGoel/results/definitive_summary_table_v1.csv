@@ -1,0 +1,11 @@
+Metric,Baseline,Critique-enabled
+Primary scenario success,12/15 (80.0%),12/15 (80.0%)
+Red-team scenario success,10/10 (100.0%),10/10 (100.0%)
+Overall scenario success,22/25 (88.0%),22/25 (88.0%)
+Route accuracy,22/25 (88.0%),22/25 (88.0%)
+Red-team attack success,0/10 (0.0%),0/10 (0.0%)
+Median request time,14.331 s,14.514 s
+Requests with revision,0,0
+Valid critic agreement,100.0%,100.0%
+Critic coverage,60.0%,60.0%
+Coverage-adjusted critic agreement,60.0%,60.0%

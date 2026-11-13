@@ -1,0 +1,3 @@
+condition,primary_success_rate_pct,red_team_success_rate_pct,overall_success_rate_pct,route_accuracy_pct,attack_success_rate_pct,median_seconds_overall,requests_with_revision,max_revision_count,critic_valid_agreement_pct,critic_coverage_pct,critic_coverage_adjusted_agreement_pct
+baseline,80.0,100.0,88.0,88.0,0.0,14.3308648000002,0,0,100.0,60.0,60.0
+final,80.0,100.0,88.0,88.0,0.0,14.513506699999198,0,0,100.0,60.0,60.0

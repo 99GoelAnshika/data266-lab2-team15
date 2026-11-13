@@ -1,0 +1,53 @@
+[
+  {
+    "part3_input_id": "P2_01",
+    "prompt_id": "IN_01",
+    "original_index": 19,
+    "source_caption": "an older man wearing sunglasses and a hat",
+    "source_dataset": "lambdalabs/naruto-blip-captions",
+    "source_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+    "part2_split": "held_out_test",
+    "selection_seed": 266,
+    "local_path": "data\\official_inputs\\part2_heldout\\P2_01.png",
+    "image_format": "PNG",
+    "width": 1080,
+    "height": 1080,
+    "mode": "RGB",
+    "source_byte_count": 479823,
+    "sha256": "4da834d3a128267f408e50f86285fa02ff2ac12a9946632f0eac960e07221e46"
+  },
+  {
+    "part3_input_id": "P2_02",
+    "prompt_id": "IN_02",
+    "original_index": 282,
+    "source_caption": "a girl with brown hair and a white shirt",
+    "source_dataset": "lambdalabs/naruto-blip-captions",
+    "source_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+    "part2_split": "held_out_test",
+    "selection_seed": 266,
+    "local_path": "data\\official_inputs\\part2_heldout\\P2_02.png",
+    "image_format": "PNG",
+    "width": 540,
+    "height": 540,
+    "mode": "RGB",
+    "source_byte_count": 157749,
+    "sha256": "8fbf349cf77fd50dea3005fbe6f675f7b021f5c885bcc9d7d8f396141fc5a4bb"
+  },
+  {
+    "part3_input_id": "P2_03",
+    "prompt_id": "IN_04",
+    "original_index": 439,
+    "source_caption": "a cat with bubbles on it's back",
+    "source_dataset": "lambdalabs/naruto-blip-captions",
+    "source_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+    "part2_split": "held_out_test",
+    "selection_seed": 266,
+    "local_path": "data\\official_inputs\\part2_heldout\\P2_03.png",
+    "image_format": "PNG",
+    "width": 1076,
+    "height": 1076,
+    "mode": "RGB",
+    "source_byte_count": 519508,
+    "sha256": "cfb42ef9818578719d1ee97f311a05b1ebb6f8331219d510b622dd1d427d7a7b"
+  }
+]

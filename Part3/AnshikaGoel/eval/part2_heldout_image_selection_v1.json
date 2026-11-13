@@ -1,0 +1,41 @@
+[
+  {
+    "part3_input_id": "P2_01",
+    "prompt_id": "IN_01",
+    "source_candidate_id": "RC_02",
+    "original_index": 19,
+    "prompt": "an older man wearing sunglasses and a hat",
+    "selection_source": "replacement_pool",
+    "category": "in_domain",
+    "source_dataset": "lambdalabs/naruto-blip-captions",
+    "source_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+    "part2_split": "held_out_test",
+    "selection_seed": 266
+  },
+  {
+    "part3_input_id": "P2_02",
+    "prompt_id": "IN_02",
+    "source_candidate_id": "ID_03",
+    "original_index": 282,
+    "prompt": "a girl with brown hair and a white shirt",
+    "selection_source": "initial_sample",
+    "category": "in_domain",
+    "source_dataset": "lambdalabs/naruto-blip-captions",
+    "source_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+    "part2_split": "held_out_test",
+    "selection_seed": 266
+  },
+  {
+    "part3_input_id": "P2_03",
+    "prompt_id": "IN_04",
+    "source_candidate_id": "ID_05",
+    "original_index": 439,
+    "prompt": "a cat with bubbles on it's back",
+    "selection_source": "initial_sample",
+    "category": "in_domain",
+    "source_dataset": "lambdalabs/naruto-blip-captions",
+    "source_revision": "1ed13e8ef280bd45e3bbac4cfa8bbd9d64ec9f89",
+    "part2_split": "held_out_test",
+    "selection_seed": 266
+  }
+]

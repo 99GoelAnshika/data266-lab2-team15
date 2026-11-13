@@ -1,0 +1,162 @@
+{
+  "archive_version": "1.0",
+  "evaluation_spec_version": "1.2",
+  "run_classification": "pre_fix_diagnostic_not_for_final_baseline_vs_final_metrics",
+  "reason_for_restart": "Generic Qwen structured-output reliability failures were observed during the first baseline execution. The implementation will receive only a generic schema-reliability fix, then both experimental conditions will be rerun from scratch.",
+  "frozen_evaluation_changed": false,
+  "planner_semantics_changed": false,
+  "diffusion_safety_checker_changed": false,
+  "scenario_count": 15,
+  "raw_result_file": {
+    "path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\results\\pre_fix_baseline_primary_raw_v1.json",
+    "sha256": "a82ece66a8705b9fc89a02fb78a828d51046e159ef7fa6b051612d9fcf6ef3fe"
+  },
+  "archived_trace_count": 15,
+  "archived_generated_image_count": 5,
+  "trace_records": [
+    {
+      "scenario_id": "P01",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P01.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P01.json",
+      "sha256": "1211fcc32108ce3eff5f761a01544cedabe434240c5ddae4382a7d845b64ebbd"
+    },
+    {
+      "scenario_id": "P02",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P02.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P02.json",
+      "sha256": "406279026cba76d18b0537f93a91791067fbc5dcaa17c8c48bf89292b97a82aa"
+    },
+    {
+      "scenario_id": "P03",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P03.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P03.json",
+      "sha256": "2f6e78876187b3342130624e869e22518519dc36efc653924112ebde58b53faa"
+    },
+    {
+      "scenario_id": "P04",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P04.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P04.json",
+      "sha256": "455d2792a29a5a313a3f5735b5562dbc5ac9ee59a645bf11b922e87cf997fbaa"
+    },
+    {
+      "scenario_id": "P05",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P05.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P05.json",
+      "sha256": "da0883b337031bfc78352e0f5d45ef706e937ef40d940451dd22b4211186b442"
+    },
+    {
+      "scenario_id": "P06",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P06.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P06.json",
+      "sha256": "1d9f9905f128aadd2c99b1453ec1ba3e966476bfef9945ff36d5ae4bf3110abb"
+    },
+    {
+      "scenario_id": "P07",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P07.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P07.json",
+      "sha256": "df9e98308b0891112107f82296d6496247570756c02e03c331bd4476ff3e48fa"
+    },
+    {
+      "scenario_id": "P08",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P08.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P08.json",
+      "sha256": "ecd8c6f742156aec8cbe078f78620e00cb6d1fbad83b370d636f5678994d8604"
+    },
+    {
+      "scenario_id": "P09",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P09.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P09.json",
+      "sha256": "e9d7c538c1674d8e3fd0d965f0b50e955fa703e2cd70e1459f4b9b716e2ca568"
+    },
+    {
+      "scenario_id": "P10",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P10.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P10.json",
+      "sha256": "a008f578bb04846ad48c7518726b0c7054063c8df3030afdaa6ede0c8c6230fb"
+    },
+    {
+      "scenario_id": "P11",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P11.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P11.json",
+      "sha256": "f4ea4c1ff25fec759c0065fd53a910f7d5826e13ede8042b0975812f38c65369"
+    },
+    {
+      "scenario_id": "P12",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P12.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P12.json",
+      "sha256": "4f5952c080e7cd02abee64c9b888b2d1e89e7e52dba23cd52292ec48ae7378b9"
+    },
+    {
+      "scenario_id": "P13",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P13.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P13.json",
+      "sha256": "1fcf6598f3c3d6b989f595249871a745d8e116dbd64e2728457063a57966ad42"
+    },
+    {
+      "scenario_id": "P14",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P14.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P14.json",
+      "sha256": "43d597bdaacc5dff6c599b17956edfeaaed4b4de26a2142a539d3b91cba9f009"
+    },
+    {
+      "scenario_id": "P15",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\traces\\BASELINE_P15.json",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\traces\\BASELINE_P15.json",
+      "sha256": "83b9d0d11c9384f22a85d7dd3e7a60d5dce249d71a7816245e044fc947749842"
+    }
+  ],
+  "generated_image_records": [
+    {
+      "scenario_id": "P06",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\generated_images\\BASELINE_P06_img2img_r0.png",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\generated_images\\BASELINE_P06_img2img_r0.png",
+      "sha256": "182b880d48e78ba7ec000255c498a85043206fa3d028835a1fcf3c7e8436e71f"
+    },
+    {
+      "scenario_id": "P08",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\generated_images\\BASELINE_P08_edit_r0.png",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\generated_images\\BASELINE_P08_edit_r0.png",
+      "sha256": "274fe4e12fdff3239fe3612687db923510b1dcf476167acd81482adc0989fb8d"
+    },
+    {
+      "scenario_id": "P09",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\generated_images\\BASELINE_P09_img2img_r0.png",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\generated_images\\BASELINE_P09_img2img_r0.png",
+      "sha256": "c30253407a8df9f3b1e2b99e4516a0cba236d162e29dc5fdb0f44d1ad7c23dba"
+    },
+    {
+      "scenario_id": "P11",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\generated_images\\BASELINE_P11_img2img_r0.png",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\generated_images\\BASELINE_P11_img2img_r0.png",
+      "sha256": "5f3373a7f346e7277e4c426dd31f210097bc7c3b948821612746939bd857d7d3"
+    },
+    {
+      "scenario_id": "P12",
+      "original_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\generated_images\\BASELINE_P12_edit_r0.png",
+      "archived_path": "D:\\DATA 266 Gen AI\\Lab2\\Part3\\AnshikaGoel\\data\\diagnostic_runs\\pre_fix_baseline_v1\\generated_images\\BASELINE_P12_edit_r0.png",
+      "sha256": "c5e083457acbae06629dd2a82db96a00a28994997d1459220ac969f12bd9a850"
+    }
+  ],
+  "diagnostic_findings": {
+    "P05": {
+      "classification": "observed_safety_outcome",
+      "finding": "Planner selected the expected img2img route, but the retained diffusion safety checker flagged the generated output.",
+      "implementation_change_planned": false
+    },
+    "P07": {
+      "classification": "generic_structured_output_failure",
+      "finding": "Prompt Agent failed because Qwen output contained an incomplete JSON object.",
+      "implementation_change_planned": true
+    },
+    "P09_route": {
+      "classification": "observed_routing_error",
+      "finding": "Planner selected img2img instead of the frozen expected edit route.",
+      "implementation_change_planned": false
+    },
+    "P09_critique": {
+      "classification": "generic_structured_output_failure",
+      "finding": "Critique Agent received a decision outside the required accept/revise schema.",
+      "implementation_change_planned": true
+    }
+  }
+}

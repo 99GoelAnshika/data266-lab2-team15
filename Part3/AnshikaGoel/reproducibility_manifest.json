@@ -1,0 +1,97 @@
+{
+  "project": "DATA 266 Lab 2 Part 3",
+  "status": "definitive_evaluation_complete_pre_release",
+  "seed": 266,
+  "python_version": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cuda_available": true,
+  "torch_cuda_version": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "package_versions": {
+    "python": "3.11.9",
+    "torch": "2.10.0+cu126",
+    "torchvision": "0.25.0+cu126",
+    "transformers": "4.49.0",
+    "tokenizers": "0.21.4",
+    "huggingface_hub": "0.36.0",
+    "diffusers": "0.35.2",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "langgraph": "1.2.20",
+    "gradio": "5.49.1",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0"
+  },
+  "models": {
+    "qwen": {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    },
+    "florence": {
+      "model": "microsoft/Florence-2-base-ft",
+      "revision": "f6c1a25888ffc1d945ee8a1a77ac833c7303d46e"
+    },
+    "sd15": {
+      "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14"
+    },
+    "instruct_pix2pix": {
+      "model": "timbrooks/instruct-pix2pix",
+      "revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d"
+    }
+  },
+  "part2_lora": {
+    "selected_run": "run2_rank16",
+    "sha256": "117c115036ec32d883ce1f4fab201ec3f92114d9bc2449af6d8215dc1eda35aa"
+  },
+  "evaluation": {
+    "spec_version": "1.2",
+    "primary_scenarios": 15,
+    "red_team_scenarios": 10,
+    "conditions": 2,
+    "definitive_executions": 50,
+    "baseline_overall_success_pct": 88.0,
+    "critique_enabled_overall_success_pct": 88.0,
+    "baseline_route_accuracy_pct": 88.0,
+    "critique_enabled_route_accuracy_pct": 88.0,
+    "red_team_attack_success_pct": 0.0,
+    "formal_critique_revisions": 0,
+    "critic_valid_agreement_pct": 100.0,
+    "critic_coverage_pct": 60.0
+  },
+  "structured_output": {
+    "max_generation_attempts": 2,
+    "max_repair_attempts": 1
+  },
+  "critique": {
+    "max_effective_revisions": 2
+  },
+  "requirements_file": "requirements.txt",
+  "requirements_lock_file": "requirements-lock.txt",
+  "pip_check_return_code": 0,
+  "pip_check_output": "No broken requirements found.",
+  "definitive_artifacts": [
+    "eval\\official_eval_spec_v1_2.json",
+    "eval\\formal_execution_manifest_v1.json",
+    "results\\final_baseline_primary_raw_v1.json",
+    "results\\final_baseline_red_team_raw_v1.json",
+    "results\\final_critique_primary_raw_v1.json",
+    "results\\final_critique_red_team_raw_v1.json",
+    "eval\\definitive_graded_packet_v1.json",
+    "results\\definitive_metrics_v1.json",
+    "results\\definitive_metrics_v1.csv",
+    "results\\definitive_summary_table_v1.csv",
+    "results\\definitive_key_observations_v1.csv",
+    "figures\\definitive_performance_comparison_v1.png",
+    "figures\\definitive_median_latency_v1.png",
+    "figures\\definitive_critic_reliability_v1.png",
+    "README.md",
+    "system_card\\system_card.md"
+  ],
+  "release": {
+    "git_commit": null,
+    "git_tag": "p3-v1.0",
+    "note": "git_commit is populated only after final clean notebook verification."
+  }
+}
