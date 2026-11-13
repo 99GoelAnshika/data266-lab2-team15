@@ -1,5 +1,5 @@
 {
-  "annotation_correction_count": 2,
+  "annotation_correction_count": 3,
   "annotation_corrections": [
     {
       "field": "expected_citations",
@@ -24,6 +24,19 @@
         "DOC3:p5"
       ],
       "reason": "Source-page verification showed that the statement that China's investment rate exceeds 40% of output is on PDF page 11."
+    },
+    {
+      "field": "expected_citations",
+      "golden_id": "G013",
+      "new_value": [
+        "DOC1:p29",
+        "DOC3:p2"
+      ],
+      "old_value": [
+        "DOC1:p28",
+        "DOC3:p2"
+      ],
+      "reason": "Source-page and visual-registry verification showed that Figure 2-5 and its reported Okun's-law slope of -0.4 are on PDF page 29."
     }
   ],
   "category_counts": {
@@ -36,7 +49,7 @@
   },
   "conversation_count": 22,
   "exact_public_question_duplicates": 0,
-  "golden_full_sha256": "c4007da4b567b1346d8906947e05b77b2af0f1d4659ba1657b601caca2525a11",
+  "golden_full_sha256": "7c5efdaf79dacad4e8e338113da02c0185338f8184668a97e716d0381b2405dd",
   "golden_questions_sha256": "999a9612cdc8a81b13f63f03c16894589b276de9b3dbf90df94f3e754766151b",
   "low_trust_expected_evidence_count": 0,
   "maximum_public_tfidf_similarity": 0.3493592049197636,
@@ -44,6 +57,7 @@
   "pre_tuning_commit": "73a429bec2e89e0a4eac8e48b72b35fa3851baf4",
   "pre_tuning_full_set_sha256": "675e9b1a5dc34a22cfd5b21d96f93569bc23dfb50e3921987e0c1aec982a2d6f",
   "pre_tuning_questions_sha256": "999a9612cdc8a81b13f63f03c16894589b276de9b3dbf90df94f3e754766151b",
+  "prior_annotation_correction_commit": "e1bca6f1e591e147b35d711fe7df38b79bf0cfa1",
   "public_question_count": 40,
   "public_questions_sha256": "b88d3c04c6715db04a595eed7731d65ed94b855b3983ad266da052d2a3c592cc",
   "public_questions_used_as_answers": false,
@@ -51,5 +65,5 @@
   "question_text_changed_after_pre_tuning_freeze": false,
   "questions_created_before_retrieval_tuning": true,
   "seed": 266,
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
