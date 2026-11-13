@@ -90,8 +90,8 @@
     "system_card\\system_card.md"
   ],
   "release": {
-    "git_commit": null,
+    "git_commit": "bcb7e1e96b9cbbc19d670f38516512787204f9e1",
     "git_tag": "p3-v1.0",
-    "note": "git_commit is populated only after final clean notebook verification."
+    "note": "Verified implementation commit produced after clean Restart Kernel and Run All. The p3-v1.0 tag is applied to the subsequent release-metadata commit."
   }
 }
